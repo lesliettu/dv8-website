@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  	<meta name="author" content="Julie Ni">
+  	<meta name="designer" content="Julie Ni">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Dv8 - dance to inspire not to impress.">
+	<meta name="keywords" content="about stanford dv8">
+	<title>About Stanford Dv8</title>
+
+	<link rel="stylesheet" href="assets/mainStyle.css">
+
+	<style>
+		img {border-radius:15px;}
+		img.big-to-small-img {width: 300px;}
+		.txtImg { width: 50%;}
+
+		#other-performance { background-position: center top;}
+		#ecc {background-position: center 20px;}
+
+		@media (max-width:800px) {
+			#other-performance { background-position:center bottom;}
+		}
+
+		@media (max-width:700px) {
+			.txtImg {width:auto;}
+		}
+
+		@media (max-width:480px) {
+			#ecc {background-position:center 50px;}
+			img.big-to-small-img {width:260px;}
+		}
+
+	</style>
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="../assets/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="container center-text" id="navbar">
+		<nav class="center-text">
+			<a href="index.html">Home</a>&nbsp;
+			<a style="color:white" href="">About</a>&nbsp;
+			<a href="dancers.html">Dancers</a>&nbsp;
+			<a href="video.html">Videos</a>&nbsp;
+			<a href="auditions.html">Auditions</a>&nbsp;
+			<a href="contact.html">Contact</a>
+		</nav>
+	</div>
+
+	<div id="page-content">
+		<div class="back-image-container">
+			<div class="back-image" id="ecc" style="background-image: url(img/ecc14funny.jpg);">
+				<h1 class="back-image-text">deviate from the norm.</h1>
+			</div>
+		</div>
+
+		<section class="center-text">
+
+			<div class="table">
+				<div class="half txtImg">
+					<h2>Where did it all begin?</h2>
+					<p>Dv8 was founded in 2001 by Michelle Florendo, Filamer Kabigting, and Anh Tan on the basis that they would deviate from the norm, push boundaries, and explore various dimensions of dance.</p>
+					<h2>Dv8 Today</h2>
+					<p>Since its formation, Dv8 has never been concerned with what a hip hop dance group is "supposed" to be. From YouTube learners to competition dancers, from hip-hop to contemporary, each member brings to the group something unique, which fuels the overall groove and sexiness of our team.</p>
+				</div>
+				<figure class="half txtImg">
+					<img class="big-to-small-img" src="img/secretsanta14.jpg" alt="christmas">
+					<figcaption>lol at the holidays</figcaption>
+				</figure>
+			</div>
+
+		</section>
+
+		<div class="back-image-container">
+			<div class="back-image" style="background-image:url(img/ECC14.jpg)">
+				<h1 class="back-image-text">it's showtime.</h1>
+			</div>
+		</div>
+
+		<section>
+			<div class="table">
+				<figure class="center-text half txtImg">
+					<img class="big-to-small-img" src="img/ECC14group.jpg" alt="EnCounter Culture 2014">
+				</figure>
+				<div class="half txtImg">
+					<h2>EnCounter Culture (ECC)</h2>
+					<p>Dv8's annual winter hip-hop showcase features professional and collegiate-level talent from across Northern California. We've invited dance teams from Berkeley (Mainstacks, Team Velociraptors) as well as groups based in the San Francisco Bay (Project M). It's a dance explosion known to sell out - fast!</p>
+				</div>				
+			</div>
+
+			<div class="table">
+				<div class="half txtImg">
+					<h2>What else do we do?</h2>
+					<p>We perform in other Stanford dance shows such as Common Origins's annual fall showcase Breaking Ground, Stanford's Dance Marathon charity event, Party on the Edge, Alliance's annual spring showcase Hypnotized and Urban Styles's annual spring showcase.</p>
+				</div>
+				<figure class="center-text half txtImg">
+					<img class="big-to-small-img" src="img/dancemarathon14.jpg" alt="dance marathon 2014">
+				</figure>			
+			</div>
+
+			<div class="center-text" style="height:auto">
+				<a class="button" href="video.html">View performances</a>
+			</div>
+
+		</section>
+
+		<div class="back-image-container">
+			<div class="back-image" id="other-performance" style="background-image:url(img/dancemarathon13.jpg);">
+				<h1 class="back-image-text">you know you wanna.</h1>
+			</div>
+		</div>
+
+		<footer>
+			<p>Stanford Dv8 | Site by Julie Ni.</p>
+		</footer>
+
+	</div>
+
+	<!-- JAVASCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#page-content').animate({opacity:1},1000);
+        });
+    </script>
+
+</body>
+</html>
