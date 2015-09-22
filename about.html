@@ -10,7 +10,9 @@
 	<meta name="keywords" content="about stanford dv8">
 	<title>About Stanford Dv8</title>
 
-	<link rel="stylesheet" href="assets/mainStyle.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Cutive+Mono' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/main.css">
 
 	<style>
 		img {border-radius:15px;}
@@ -42,78 +44,95 @@
 </head>
 
 <body>
-	<div class="container center-text" id="navbar">
-		<nav class="center-text">
-			<a href="index.html">Home</a>&nbsp;
-			<a style="color:white" href="">About</a>&nbsp;
-			<a href="dancers.html">Dancers</a>&nbsp;
-			<a href="video.html">Videos</a>&nbsp;
-			<a href="auditions.html">Auditions</a>&nbsp;
-			<a href="contact.html">Contact</a>
-		</nav>
-	</div>
-
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">#itsdv8</span>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="dancers.html">Dancers</a></li>
+          <li><a href="video.html">Videos</a></li>
+          <li><a href="auditions.html">Auditions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
 	<div id="page-content">
 		<div class="back-image-container">
 			<div class="back-image" id="ecc" style="background-image: url(img/ecc14funny.jpg);">
-				<h1 class="back-image-text">deviate from the norm.</h1>
 			</div>
+      <div class="back-image-text">deviate from the norm.</div>
 		</div>
 
-		<section class="center-text">
-
-			<div class="table">
-				<div class="half txtImg">
+		<div class="center-text">
+			<div class="row">
+				<div class="col-md-8">
 					<h2>Where did it all begin?</h2>
-					<p>Dv8 was founded in 2001 by Michelle Florendo, Filamer Kabigting, and Anh Tan on the basis that they would deviate from the norm, push boundaries, and explore various dimensions of dance.</p>
+					<div class="blurb">
+            Dv8 was founded in 2001 by Michelle Florendo, Filamer Kabigting, and Anh Tan on the basis that they would deviate from the norm, push boundaries, and explore various dimensions of dance.
+          </div>
 					<h2>Dv8 Today</h2>
-					<p>Since its formation, Dv8 has never been concerned with what a hip hop dance group is "supposed" to be. From YouTube learners to competition dancers, from hip-hop to contemporary, each member brings to the group something unique, which fuels the overall groove and sexiness of our team.</p>
+					<div class="blurb">Since its formation, Dv8 has never been concerned with what a hip hop dance group is "supposed" to be. From YouTube learners to competition dancers, from hip-hop to contemporary, each member brings to the group something unique, which fuels the overall groove and sexiness of our team.</div>
 				</div>
-				<figure class="half txtImg">
-					<img class="big-to-small-img" src="img/secretsanta14.jpg" alt="christmas">
-					<figcaption>lol at the holidays</figcaption>
-				</figure>
+        <div class="col-md-4">
+				  <figure class="txtImg">
+					  <img class="big-to-small-img" src="img/secretsanta14.jpg" alt="christmas">
+				  </figure>
+        </div>
 			</div>
-
-		</section>
+		</div>
 
 		<div class="back-image-container">
 			<div class="back-image" style="background-image:url(img/ECC14.jpg)">
-				<h1 class="back-image-text">it's showtime.</h1>
+			</div>
+			<div class="back-image-text">it's showtime.</div>
+		</div>
+
+		<div class="center-text">
+			<div class="row">
+				<div class="col-md-4">
+					  <img align="right" class="big-to-small-img" src="img/dancemarathon14.jpg" alt="dance marathon">
+				</div>
+        <div class="col-md-8">
+					<h2>EnCounter Culture (ECC)</h2>
+				  <div class="blurb">Dv8's annual winter hip-hop showcase features professional and collegiate-level talent from across Northern California. We've invited dance teams from Berkeley (Mainstacks, Team Velociraptors) as well as groups based in the San Francisco Bay (Project M). It's a dance explosion known to sell out - fast!</div>
+        </div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<h2>What else do we do?</h2>
+					<div class="blurb">
+            We perform in other Stanford dance shows such as Common Origins's annual fall showcase Breaking Ground, Stanford's Dance Marathon charity event, Party on the Edge, Alliance's annual spring showcase Hypnotized and Urban Styles's annual spring showcase.
+          </div>
+				</div>
+        <div class="col-md-4">
+				  <figure class="txtImg">
+					  <img class="big-to-small-img" src="img/dancemarathon14.jpg" alt="dance marathon">
+				  </figure>
+        </div>
 			</div>
 		</div>
 
-		<section>
-			<div class="table">
-				<figure class="center-text half txtImg">
-					<img class="big-to-small-img" src="img/ECC14group.jpg" alt="EnCounter Culture 2014">
-				</figure>
-				<div class="half txtImg">
-					<h2>EnCounter Culture (ECC)</h2>
-					<p>Dv8's annual winter hip-hop showcase features professional and collegiate-level talent from across Northern California. We've invited dance teams from Berkeley (Mainstacks, Team Velociraptors) as well as groups based in the San Francisco Bay (Project M). It's a dance explosion known to sell out - fast!</p>
-				</div>				
-			</div>
-
-			<div class="table">
-				<div class="half txtImg">
-					<h2>What else do we do?</h2>
-					<p>We perform in other Stanford dance shows such as Common Origins's annual fall showcase Breaking Ground, Stanford's Dance Marathon charity event, Party on the Edge, Alliance's annual spring showcase Hypnotized and Urban Styles's annual spring showcase.</p>
-				</div>
-				<figure class="center-text half txtImg">
-					<img class="big-to-small-img" src="img/dancemarathon14.jpg" alt="dance marathon 2014">
-				</figure>			
-			</div>
-
 			<div class="center-text" style="height:auto">
-				<a class="button" href="video.html">View performances</a>
+				<a role="button" class="btn button" href="video.html">View performances</a>
 			</div>
 
 		</section>
 
 		<div class="back-image-container">
 			<div class="back-image" id="other-performance" style="background-image:url(img/dancemarathon13.jpg);">
-				<h1 class="back-image-text">you know you wanna.</h1>
 			</div>
+			<h1 class="back-image-text">you know you wanna.</h1>
 		</div>
 
 		<footer>

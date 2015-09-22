@@ -1,0 +1,211 @@
+/*
+ *  dark purple #292038
+ *  black (for navbar): #111119
+ */
+
+body {
+  height: 100%;
+  background-color: #1a1a1a;
+  padding-top: 50px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  border-bottom: none;
+  background-color: #111119;
+}
+
+.background-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar li {
+  font-size: 0.9em;
+  text-transform: uppercase; 
+}
+
+.navbar li.active {
+  background-color: black;
+}
+
+/* Background images fixed position with scrolling
+========================================== */
+
+.table {
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+.back-image-container {
+	display: block;
+	position: relative;
+	height: 400px;
+}
+
+.back-image {
+	width: 100%;
+	height: 100%;
+	background-color: #252525;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center 50px;
+	background-size: 100%;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.back-image-text {
+  position: absolute;
+  display: block;
+  top: 41%;
+  width: 100%;
+	color: #ddd;
+	vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
+}
+
+.purple-film {
+  display: table;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+}
+
+
+h1, h2, h3 {
+	font-weight: 200;
+	color: #6A367F;
+	text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.center-text {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #888;
+}
+
+figure {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+div.blurb {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Grid behavior!
+======================== */
+.row { margin: auto; text-align: center;}
+.sm-grid-2,
+.md-grid-2,
+{display: inline-block; width: 15.83333333333333%;}
+.sm-grid-3,
+.md-grid-3,
+{display: inline-block; width: 23.75%;}
+.sm-grid-4,
+.md-grid-4,
+{display: inline-block; width: 31.66666666666667%;}
+.sm-grid-5,
+.md-grid-5,
+{display: inline-block; width: 39.58333333333333%;}
+.sm-grid-6,
+.md-grid-6,
+{display: inline-block; width: 47.5%;}
+.sm-grid-7,
+.md-grid-7,
+.lg-grid-7 {display: inline-block; width: 55.41666666666667%;}
+.sm-grid-8,
+.md-grid-8,
+{display: inline-block; width: 63.33333333333333%;}
+.sm-grid-9,
+.md-grid-9,
+{display: inline-block; width: 71.25%;}
+
+
+
+.button {
+  border-radius: 1px;
+  text-transform: uppercase;
+  background-color: #58367F;
+  border: none;
+  color: #999;
+}
+
+.button:hover {
+  background-color: #6A367F;
+  color: inherit;
+}
+
+.button:focus {
+  color: inherit;
+}
+
+.outer {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+}
+
+.cover-title {
+  width: auto;
+  display: inline;
+  padding: 12px;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Roboto Condensed';
+}
+
+.cover-text {
+  font-size: 1.4em;
+}
+
+.table-dates {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+}
+
+.table-dates td {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.table-dates td.date {
+  text-align: right;
+  color: #bbb;
+}
+
+.table-dates td.event-name {
+  text-align: left;
+  font-weight: bold;
+}
+
+td.event-name a, td.event-name a:hover {
+  color: inherit;
+}
